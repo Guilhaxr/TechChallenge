@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Development Tech Challenge</title>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+<style>
+h2 { font-family: 'Amita';font-size: 22px;
+}
+
+body {
+  background-color: rgba(15, 12, 160, 0.466);
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  background: #283b63;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+} 
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: #283b63;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.logo {
+  float: left;
+}
+
+</style>
+  </head>
+  <body>
+    <header>
+        <<nav class="navigation-bar"> 
+            <img src="assets/logooo.png" alt="logo" class="logo" width="85" height="85" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="royal-family.html">Royal Family</a></li>
+            <li><a href="assets.html">Royal Assets</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <h2>Contact the Royal Kingdom</h2>
+
+    <section id="contact">
+      <form id="contactForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" value="John" /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          value="example@seamail.com"
+        /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message"></textarea>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

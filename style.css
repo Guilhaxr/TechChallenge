@@ -1,0 +1,63 @@
+body {
+  background-color: rgba(86, 130, 224, 0.849);
+  font-family: "Times New Roman", Times, serif;
+}
+
+ul {
+  background: #283b63;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+#welcome {
+  height: 400px;
+  background-image: url("assets/first.jpg");
+  background-size: cover;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 54px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+table,th,td {
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background: #283b63;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
